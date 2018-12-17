@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.0" orientation="orthogonal" renderorder="right-down" width="50" height="160" tilewidth="200" tileheight="200" infinite="0" nextlayerid="13" nextobjectid="268">
+ <tileset firstgid="1" source="../../game-of-intolerance/WIP/itens.tsx"/>
+ <objectgroup id="2" name="Objects">
+  <object id="92" name="background" gid="7" x="15" y="31993" width="9986" height="31970"/>
+  <object id="159" name="playerBall" x="5224" y="7648" width="144" height="144">
+   <ellipse/>
+  </object>
+  <object id="169" name="courseHole" x="3680" y="6448" width="80" height="80">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="SoftLayer">
+  <properties>
+   <property name="Soft" value=""/>
+  </properties>
+  <object id="104" x="4203.03" y="4984.85">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="12.1094,-3.00391 -787.879,27.2727 -1427.27,-481.818 -939.611,-971.09"/>
+  </object>
+  <object id="105" x="4215.15" y="4981.82">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="0,0 -951.622,-968.159 382.918,-968.92"/>
+  </object>
+  <object id="106" x="4600" y="4039.39">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="-1.82609,-26.4783 877.697,314.303 772.727,1509.09 -384.825,942.445"/>
+  </object>
+  <object id="107" x="5472.73" y="4381.82">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="14,-26 1051.52,1021.21 830.303,2236.36 -89.9394,1176.67"/>
+  </object>
+  <object id="108" x="6530.3" y="5421.21">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="4,-8 770.667,1670.36 76.7879,1771.76 -221.212,1203.03"/>
+  </object>
+  <object id="109" x="6848.48" y="8409.09">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="0,0 -241.388,-1216.09 452.667,-1316.79 1050.49,300.9"/>
+  </object>
+  <object id="110" x="6848.48" y="8430.3">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="-0.00106534,-21.1879 1050.5,279.721 1223.44,1481.66 345.478,799.953"/>
+  </object>
+  <object id="111" x="7193.94" y="9230.3">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="0,0 877.97,681.677 964.97,2596.97 -48.4752,2012.08"/>
+  </object>
+  <object id="112" x="7145.45" y="11242.4">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="0,0 1013.42,585.016 862.367,1871.89 412.121,1269.7"/>
+  </object>
+  <object id="113" x="7969.7" y="13103">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="38.082,11.3438 -121.758,1352.96 -778.839,909.427 -412.121,-90.9091"/>
+  </object>
+  <object id="114" x="7560.61" y="12997">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="-3.02983,15.0682 -3.63636,-470 447.177,117.311"/>
+  </object>
+  <object id="115" x="7184.85" y="14033.3">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="6,-20.8438 -176.788,586.727 662.97,1534.36 663.072,422.706"/>
+  </object>
+  <object id="116" x="7006.06" y="14639.4">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="1.96875,-19.3359 6.06061,1921.21 841.773,1248.54 841.685,928.489"/>
+  </object>
+  <object id="117" x="7832" y="15968">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="15.9166,-79.983 229.41,954.953 -308.111,2339.22 -819.824,592.691"/>
+  </object>
+  <object id="118" x="8256" y="18060">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="61.9531,106.719 145.452,1932.72 -848.787,2396.8 -731.992,247.383"/>
+  </object>
+  <object id="119" x="8372" y="20004">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="29.465,-11.2242 -198.793,2654.51 -1548,3039.94 -964.5,453.75"/>
+  </object>
+  <object id="120" x="8160" y="22672">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="13.2031,-13.4219 -774.07,2157.29 -1931.99,1791.98 -1336,372"/>
+  </object>
+  <object id="121" x="6228" y="24464">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="0,0 1157.93,365.313 64.8438,2246.73 -769.875,1345.94"/>
+  </object>
+  <object id="122" x="5448" y="25808">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="10,2 844.826,902.739 -347.864,1888.53 -615,527.333"/>
+  </object>
+  <object id="123" x="4828" y="26336">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="4.98681,-0.657378 -471.911,264.022 -823.688,1620 272.129,1360.54"/>
+  </object>
+  <object id="124" x="4336" y="26580">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="20.0586,20.0039 -587.833,-35.9375 -1408.1,1234.55 -331.707,1376"/>
+  </object>
+  <object id="126" x="2920" y="27736">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="7.875,78.5391 -329.984,-357.971 492.063,-1353.94 828,-1192"/>
+  </object>
+  <object id="127" x="3336" y="26268">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="0,0 -817.333,910 -1015.45,259.273 -300,-736"/>
+  </object>
+  <object id="128" x="2332" y="26496">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="-12,28 -30,-2860 560,-1940 696,-972"/>
+  </object>
+  <object id="129" x="2904" y="24540">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="0,14 -600,-912 -586,-1736 164,-1936"/>
+  </object>
+  <object id="130" x="3068" y="22572">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="-2,24 -752,218 -956,-738 -500,-1754"/>
+  </object>
+  <object id="131" x="1952" y="20516">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="-30,-1.33333 68,-2110 676,-1496 616,292"/>
+  </object>
+  <object id="132" x="2048" y="18412">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="-27.7273,-6.54545 232,-938 1012,-572 588,600"/>
+  </object>
+  <object id="133" x="2364" y="17392">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="-80,74 334,-448 1338,-22 700,440"/>
+  </object>
+  <object id="134" x="3608" y="16268">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="-60,58 190,-490 808,-840 692,36 340,928 100,1094"/>
+  </object>
+  <object id="135" x="3816" y="15744">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="-20,20 10,-2226 660,-2168 594,-328"/>
+  </object>
+  <object id="136" x="3852" y="13472">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="-20,32 184,-724 758,-1038 628,94"/>
+  </object>
+  <object id="137" x="4044" y="12724">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="-18,16 -6,-818 536,-1390 560,-304"/>
+  </object>
+  <object id="138" x="4052" y="11872">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="-12,16 -170,-1136 246,-2014 520,-556"/>
+  </object>
+  <object id="139" x="3852" y="10548">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="20,176 -194,-506 8,-1684 440,-700"/>
+  </object>
+  <object id="140" x="3516" y="9704">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="136,330 -298,-530 -272,-1480 336,-842"/>
+  </object>
+  <object id="141" x="3128" y="9028">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="80,140 -576,-502 -368,-1264 108,-804"/>
+  </object>
+  <object id="142" x="2744" y="7744">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="6,16 -202,776 -744,-22 -340,-648"/>
+  </object>
+  <object id="143" x="2004" y="7684">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="-10,28 -171,-663.5 424,-1488 396,-608"/>
+  </object>
+  <object id="144" x="1868" y="6928">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="-36,88 276,-1808 668,-1186 564,-760"/>
+  </object>
+  <object id="145" x="2192" y="5100">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="-42,10 578,-590 1212,-84 348,636"/>
+  </object>
+  <object id="146" x="8052" y="16938">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="9.42969,-14.9922 265.953,1228.7 -528,1369.25"/>
+  </object>
+  <object id="147" x="3338" y="26272">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="0,0 74,110 -748,1106 -819.261,906.783"/>
+  </object>
+  <object id="148" x="1922" y="20516">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="0,0 634,298 189.697,1317.82"/>
+  </object>
+  <object id="149" x="2706" y="16936">
+   <properties>
+    <property name="Soft" type="bool" value="true"/>
+   </properties>
+   <polygon points="-6.66667,4 832,-606 990,422"/>
+  </object>
+ </objectgroup>
+ <objectgroup id="11" name="ObstacleLayer">
+  <object id="176" x="6688" y="18184">
+   <polygon points="0,0 -816,544 -264,1592 464,832"/>
+  </object>
+ </objectgroup>
+ <objectgroup id="12" name="GreenLayer">
+  <object id="265" x="4328" y="5592">
+   <polygon points="0,0 -736,-48 -1288,344 -1480,968 -1384,1584 -1040,1888 -384,1640 256,1240 456,600 432,152"/>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="HardLayer"/>
+ <objectgroup id="9" name="SandLayer">
+  <object id="152" x="6000" y="7472.73">
+   <properties>
+    <property name="Sand" value=""/>
+   </properties>
+   <polygon points="-6,-264 390,-314 534,76 544,556 364,954 270,956 180,908 54,714 -94,412 -126,212 -92,54"/>
+  </object>
+  <object id="154" x="3784" y="7480">
+   <properties>
+    <property name="Sand" value=""/>
+   </properties>
+   <polygon points="0,0 201.333,-89.3333 422.667,-100 552,-53.3333 672,50.6667 744,169.333 901.333,358.667 1058.67,504 1236,742.667 1334.67,972 1360,1362.67 1309.33,1745.33 1129.33,1801.33 681.333,1700 310.667,1301.33 89.3333,910.666 -33.3333,634.667 -41.3333,288 -65.3333,112"/>
+  </object>
+  <object id="155" x="5660" y="12988">
+   <properties>
+    <property name="Sand" value=""/>
+   </properties>
+   <polygon points="-60,-160 96,34 158,288 100,812 -58,1050 -606,1142 -656,984 -700,690 -512,240 -358,-62"/>
+  </object>
+  <object id="156" x="6560" y="14754">
+   <properties>
+    <property name="Sand" value=""/>
+   </properties>
+   <polygon points="-4,-84 -32,126 -12,886 184,1090 348,1072 401,603 366,-92 183,-96"/>
+  </object>
+  <object id="157" x="5184.85" y="15478.8">
+   <properties>
+    <property name="Sand" value=""/>
+   </properties>
+   <polygon points="368,-528 1018.18,-131.152 1099.03,817.212 294.061,1297.7 -484.121,1442.3 -531.515,1068 -580.364,455.03 -401.091,-30.6667"/>
+  </object>
+ </objectgroup>
+ <objectgroup id="10" name="WaterLayer" offsetx="-256.328" offsety="-273.832">
+  <object id="170" x="4906.67" y="18691">
+   <polygon points="0,0 -148.485,-230.303 -409.091,-384.848 -739.394,-469.697 -1057.58,-448.485 -1251.52,-275.758 -1378.79,-72.7273 -1651.52,845.455 -1684.85,1463.64"/>
+  </object>
+  <object id="171" x="4920" y="18712">
+   <polygon points="-13.3281,-20.9492 392,1552 -1168.02,3527.99 -1494.5,3067.27 -1669.47,2276.25 -1698.18,1442.69"/>
+  </object>
+  <object id="172" x="3752" y="22240">
+   <polygon points="0,0 720,208 2151.98,-1304.04 2081.51,-1531.15 1560.02,-1975.96"/>
+  </object>
+  <object id="173" x="4504" y="22472">
+   <polygon points="-31.9844,-23.9688 1400,-1536 1584,-744 1440,-40 1072,408 456,496"/>
+  </object>
+  <object id="211" x="8676.86" y="20332.9">
+   <polygon points="0,0 3873.33,-603.901 3869.33,2338.41 -238.34,2602.16"/>
+  </object>
+  <object id="213" x="10036.5" y="22600.1">
+   <polygon points="2505.71,75.2765 2521.72,2887.53 -2389.1,2509.46 -1601.54,339.483"/>
+  </object>
+  <object id="214" x="8666.9" y="20308.8">
+   <polygon points="0,0 -85.6488,-1861.85 4012.81,-4594.26 3872.03,-607.695"/>
+  </object>
+  <object id="215" x="8596.99" y="18500.1">
+   <polygon points="-20,-60.5 -479.574,-2324.1 4163.88,-6159.65 4079.28,-2794.64"/>
+  </object>
+  <object id="216" x="8110.65" y="16322.3">
+   <polygon points="0,-151.515 0.022669,-1460.64 317.301,-4142.04 4586.1,-6693.59 4643.56,-3988.31"/>
+  </object>
+  <object id="217" x="8423.57" y="12138.1">
+   <polygon points="0,0 -88.749,-1953.85 4326.27,-4761.09 4268.81,-2551.38"/>
+  </object>
+  <object id="218" x="8380.22" y="10336.3">
+   <polygon points="-46.6667,-162.303 -177.115,-1224.25 4560.55,-6104.13 4367.32,-2992.07"/>
+  </object>
+  <object id="219" x="8211" y="9079.58">
+   <polygon points="0,0 4736.06,-4883.7 2518.36,-8786.61 -608.26,-1650.99"/>
+  </object>
+  <object id="220" x="7585.72" y="7419.06">
+   <polygon points="0,0 -781.654,-1712.5 1674.68,-7511.36 3107.23,-7134.09"/>
+  </object>
+  <object id="221" x="6904.92" y="5748.19">
+   <polygon points="-104,-80 -1065.3,-1065.11 11.2265,-5784.49 2355.47,-5864.49"/>
+  </object>
+  <object id="222" x="5836.66" y="4643.26">
+   <polygon points="0,0 -904.785,-348.597 -1572.78,-4719.57 1079.49,-4719.57"/>
+  </object>
+  <object id="223" x="4914.34" y="4287.35">
+   <polygon points="0,0 -1359.8,-3.74038 -2706.67,-4371.65 -666.462,-4371.65"/>
+  </object>
+  <object id="224" x="3519.99" y="4261.65">
+   <polygon points="0,0 -1139.97,1119.39 -3348.76,-3826.71 -1344.32,-4369.95"/>
+  </object>
+  <object id="225" x="2057.68" y="7334.72">
+   <polygon points="-16,-144 -4915.29,3733.43 -2110.7,-6761.23 318.272,-1943.98"/>
+  </object>
+  <object id="245" x="-2054.44" y="-12051.3">
+   <polygon points="4047.77,19324.8 4213.95,20037.9 -732.098,24480.8 -789.223,23185.2"/>
+  </object>
+  <object id="246" x="-1325.71" y="-10514">
+   <polygon points="4047.77,19324.8 -1460.83,23963.5 -1460.83,22943.4 3488.38,18504.1"/>
+  </object>
+  <object id="247" x="-1323.36" y="-10512.8">
+   <polygon points="4047.77,19324.8 4725.12,19984.2 -1463.18,26006 -1463.18,23965.8"/>
+  </object>
+  <object id="248" x="-4125.24" y="-5542.57">
+   <polygon points="1339.22,21037.4 7528.7,15015.2 7977.21,15896.8 8200.61,16601.2 8368.42,17781.4 8352.61,18647.5 8202.71,19235.5 1386.71,22880.5"/>
+  </object>
+  <object id="249" x="36.8077" y="-5592.52">
+   <polygon points="4047.77,19324.8 4016.66,21627.8 3759.59,22189 2916.25,22804.1 -2765.67,24998.7 -2765.67,22958.5"/>
+  </object>
+  <object id="250" x="-1087.03" y="-2131.88">
+   <polygon points="4040.44,19346.5 3624.43,19864.6 -1615.51,22323.4 -1637.51,21541.3"/>
+  </object>
+  <object id="251" x="-1495.94" y="-1590.7">
+   <polygon points="4030.44,19331.5 3771.69,20269.4 -1190.87,23003.2 -1190.87,21779"/>
+  </object>
+  <object id="252" x="-1770.29" y="-685.103">
+   <polygon points="4046.13,19364.6 3947.8,21473.9 -921.164,23682.5 -921.436,22108.2"/>
+  </object>
+  <object id="253" x="-1866.52" y="1440.53">
+   <polygon points="4044.78,19349.3 4234.45,20667.3 -823.907,22955.2 -826.899,21551.5"/>
+  </object>
+  <object id="254" x="-1688.38" y="2748.37">
+   <polygon points="4056.5,19359.5 4256.85,20306.1 4245.16,21154.9 -1014.16,24056.9 -1005.43,21643.4"/>
+  </object>
+  <object id="255" x="-1493.5" y="4506.66">
+   <polygon points="4050.13,19398.8 4062.56,22273.4 -1211.04,24262.5 -1208.67,22296.3"/>
+  </object>
+  <object id="256" x="-1479.58" y="7463.42">
+   <polygon points="4047.77,19324.8 4253.98,19988.3 -1227.68,22533.9 -1227.68,21309.8"/>
+  </object>
+  <object id="257" x="-1281.3" y="8112.73">
+   <polygon points="4055.44,19339.5 4120.87,19528 -1434.24,22278 -1426.58,21884.7"/>
+  </object>
+  <object id="258" x="-1208.69" y="8317.98">
+   <polygon points="4047.77,19324.8 4392.27,19770.4 3029.73,24309 -1501.24,22074.8"/>
+  </object>
+  <object id="259" x="-885.15" y="8760.85">
+   <polygon points="4117.36,19327.6 5145.46,19501.5 6357.35,23863.3 2706.56,23866.1"/>
+  </object>
+  <object id="260" x="191.685" y="8913.13">
+   <polygon points="4068.99,19316.8 5164.13,19059.4 8113.9,23310.1 5278.84,23710.1"/>
+  </object>
+  <object id="261" x="1286.12" y="8674.98">
+   <polygon points="4071.77,19297.3 5263.16,18319.3 9240.35,21331.6 7020.12,23548.4"/>
+  </object>
+  <object id="262" x="2487.05" y="7715.52">
+   <polygon points="4066.44,19275.5 5162.17,17406.1 10072.2,17786.4 8043.05,22288.4"/>
+  </object>
+ </objectgroup>
+</map>

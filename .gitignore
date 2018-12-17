@@ -1,0 +1,17 @@
+node_modules
+.DS_Store
+.project
+.grunt
+*.sublime-*
+*.log
+.idea
+.tmp
+.happypack
+.bulldog
+bulldog
+*.zip
+dist/assets/salsicha\.json
+
+dist/assets/salsicha\.png
+
+dist/assets/

@@ -1,1 +1,1 @@
-p2playground
+cn-golf-prototype

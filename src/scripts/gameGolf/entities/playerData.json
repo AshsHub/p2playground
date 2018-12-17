@@ -1,0 +1,37 @@
+{
+    "clubs": [{
+        "image": "iron.png",
+        "clubPower": 0.5,
+        "clubHeight": 1.65,
+        "energy": 1,
+        "zoom": 0.3,
+        "name": "iron"
+    }, {
+        "image": "wood.png",
+        "clubPower": 1.0,
+        "clubHeight": 2.5,
+        "energy": 3,
+        "zoom": 0.1,
+        "name": "wood"
+    }, {
+        "image": "putter.png",
+        "clubPower": 1.5,
+        "clubHeight": 0.1,
+        "energy": 2,
+        "zoom": 0.9,
+        "name": "iron"
+    }],
+    "standardTerrainData": {
+        "power": 1.5,
+        "verticalForce": 1,
+        "friction": 1,
+        "type": "DEFAULT",
+        "deadly": false,
+        "colour": 1321324,
+        "bounce": 1.5
+    },
+    "clubStandardData": {
+        "standardVerticalForce": 2500,
+        "standardForce": 5000
+    }
+}

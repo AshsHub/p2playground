@@ -1,0 +1,16 @@
+{
+    "default": [
+        "dist/assets\\chars\\chars0.json",
+        "dist/assets\\entities\\entities0.json",
+        "dist/assets\\entities\\entities1.json",
+        "dist/assets\\entities\\entities2.json",
+        "dist/assets\\entities\\entities3.json",
+        "dist/assets\\entities\\entities4.json",
+        "dist/assets\\environment\\environment0.json",
+        "dist/assets\\input\\input0.json",
+        "dist/assets\\particles\\particles0.json",
+        "dist/assets\\ui2\\ui20.json",
+        "dist/assets\\ui\\ui0.json"
+    ],
+    "audio": []
+}

@@ -1,0 +1,95 @@
+{
+    "cards": [{
+        "image": "images0001.png",
+        "type": "passive",
+        "name": "gumball",
+        "desc": "Amazing world \nof Gumball",
+        "level": 9,
+        "energy": 1,
+        "power": 1.5,
+        "accuracy": 0.3,
+        "bounce": 0.5,
+        "color": {
+            "back": 16772589,
+            "energy": 16349047,
+            "border": 16349047
+        },
+        "verticalForce": 0.7
+    }, {
+        "image": "images0002.png",
+        "type": "passive",
+        "name": "finn",
+        "desc": "Adventure Time",
+        "level": 9,
+        "energy": 2,
+        "power": 0.7,
+        "accuracy": 0.0,
+        "bounce": 0.5,
+        "color": {
+            "back": 15134711,
+            "energy": 7384042,
+            "border": 7384042
+        },
+        "verticalForce": 2.5
+    }, {
+        "image": "images0003.png",
+        "type": "passive",
+        "name": "Steven",
+        "desc": "I do not know",
+        "level": 9,
+        "energy": 3,
+        "power": 1.5,
+        "accuracy": 0.2,
+        "bounce": 0.5,
+        "color": {
+            "back": 15202278,
+            "energy": 8055408,
+            "border": 8055408
+        },
+        "verticalForce": 1.5
+    }, {
+        "image": "images0004.png",
+        "type": "passive",
+        "name": "Bears",
+        "desc": "We Bare Bears",
+        "level": 9,
+        "energy": 4,
+        "power": 1.4,
+        "accuracy": 0.1,
+        "bounce": 0.5,
+        "color": {
+            "back": 16180983,
+            "energy": 14708970,
+            "border": 14708970
+        },
+        "verticalForce": 1.5
+    }, {
+        "image": "images0005.png",
+        "type": "active",
+        "class": "defence",
+        "name": "Ice King Castle",
+        "desc": "!!!!!!!!!!!!",
+        "energy": 4,
+        "level": 3,
+        "enemyCount": 7,
+        "color": {
+            "back": 16180983,
+            "energy": 14708970,
+            "border": 14708970
+        }
+    }, {
+        "image": "images0006.png",
+        "type": "active",
+        "class": "attack",
+        "name": "Freezer",
+        "desc": "??????????????",
+        "energy": 4,
+        "level": 3,
+        "timer": 3,
+        "color": {
+            "back": 16180983,
+            "energy": 14708970,
+            "border": 14708970
+        }
+    }]
+}

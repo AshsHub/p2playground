@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.0" orientation="orthogonal" renderorder="right-down" width="50" height="160" tilewidth="200" tileheight="200" infinite="0" nextlayerid="24" nextobjectid="1028">
+ <tileset firstgid="1" name="itens" tilewidth="1220" tileheight="1891" tilecount="6" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="100" height="155" source="../../game-of-intolerance/WIP/barrel.png"/>
+  </tile>
+  <tile id="4">
+   <image width="200" height="222" source="../../game-of-intolerance/WIP/enemy.png"/>
+  </tile>
+  <tile id="10">
+   <image width="864" height="1891" source="tree.png"/>
+  </tile>
+  <tile id="12">
+   <image width="350" height="288" source="rock.png"/>
+  </tile>
+  <tile id="14">
+   <image width="1220" height="1294" source="fortress.png"/>
+  </tile>
+  <tile id="16">
+   <image width="64" height="64" source="../raw-assets/environment{tps}/sock.png"/>
+  </tile>
+ </tileset>
+ <objectgroup id="2" name="Objects">
+  <object id="772" name="playerBall" x="2078.75" y="44882" width="144" height="144">
+   <properties>
+    <property name="color" value="0x0FC0EC"/>
+    <property name="team" type="int" value="1"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="773" name="courseHole" x="22489.3" y="4080" width="80" height="80">
+   <properties>
+    <property name="color" value="0x0FC0EC"/>
+    <property name="team" type="int" value="1"/>
+   </properties>
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup id="10" name="SkyLayer" locked="1" offsetx="-256.328" offsety="-273.832">
+  <properties>
+   <property name="bounce" type="float" value="1"/>
+   <property name="color" value="0x7EC0EE"/>
+   <property name="deadly" type="bool" value="true"/>
+   <property name="friction" type="float" value="1"/>
+   <property name="green" type="bool" value="false"/>
+   <property name="instaStop" type="bool" value="true"/>
+   <property name="power" type="float" value="1"/>
+   <property name="type" value="SKY"/>
+   <property name="verticalForce" type="float" value="1"/>
+  </properties>
+  <object id="591" x="-34495.7" y="-29550.2">
+   <polygon points="0,0 90816,128 90880,100416 -192,100544"/>
+  </object>
+ </objectgroup>
+ <objectgroup id="19" name="BottomIsland" locked="1">
+  <properties>
+   <property name="bounce" type="float" value="0"/>
+   <property name="color" value="0x8E804C"/>
+   <property name="deadly" type="bool" value="false"/>
+   <property name="friction" type="float" value="0"/>
+   <property name="green" type="bool" value="false"/>
+   <property name="ignoreCollider" type="bool" value="true"/>
+   <property name="power" type="float" value="0.8"/>
+   <property name="type" value="ISLANDSIDE"/>
+   <property name="verticalForce" type="float" value="0.8"/>
+  </properties>
+  <object id="1009" x="-1760" y="44768">
+   <polygon points="0,0 64,3424 992,4832 2816,5536 4416,6592 6880,3520 7200,1952 7136,96"/>
+  </object>
+  <object id="1010" x="9728" y="10624">
+   <polygon points="-168,-48 -64,2016 576,3552 1984,4032 2368,4736 3616,3520 4960,2848 5440,1056 5376,320"/>
+  </object>
+  <object id="1011" x="12576" y="23744">
+   <polygon points="0,0 -608,3040 -2272,5952 -4448,4896 -6624,5760 -8896,7328 -11392,6432 -12480,9088 -11776,12416 -12352,16800 -13312,19040 -17632,21792 -21488,19280 -24568,16296 -26428,10868 -14046,1114"/>
+  </object>
+  <object id="1012" x="12992" y="15456">
+   <polygon points="0,0 416,2720 1088,5664 1088,11168 2624,13152 4416,12352 5152,12992 7264,10016 7072,8000 6144,3840"/>
+  </object>
+  <object id="1013" x="-2816" y="8864">
+   <polygon points="0,0 832,2464 2976,3360 7168,1184 10976,3392 12768,192 15392,-2752 14528,-5504"/>
+  </object>
+  <object id="1014" x="3616" y="-4064">
+   <polygon points="0,0 864,2656 4384,4160 5088,5504 7168,5600 8736,7456 9568,10592 12128,16064 14336,16928 17248,20832 18496,28400 19936,27520 21920,30752 25216,29664 27872,30272 29248,27744 30400,26752 30208,23616 30624,21920 7840,1312"/>
+  </object>
+ </objectgroup>
+ <objectgroup id="15" name="DeepSoftLayer" locked="1" offsetx="1120" offsety="32">
+  <properties>
+   <property name="bounce" type="float" value="0.1"/>
+   <property name="color" value="0x2c5428"/>
+   <property name="deadly" type="bool" value="false"/>
+   <property name="friction" type="float" value="20"/>
+   <property name="green" type="bool" value="false"/>
+   <property name="instaStop" type="bool" value="false"/>
+   <property name="power" type="float" value="0.8"/>
+   <property name="type" value="DEEPSOFT"/>
+   <property name="verticalForce" type="float" value="0.8"/>
+  </properties>
+  <object id="889" x="-1136" y="43104">
+   <polygon points="0,0 -1136,240 -1808,1616 -1616,3488 272,4832 3808,4912 5440,3648 5536,1200 4320,-720 1872,-1120"/>
+  </object>
+  <object id="891" x="-5408" y="42144">
+   <polygon points="0,0 -5696,-1408 -9664,-7616 -11008,-14976 -9856,-20736 -6784,-25600 1536,-29312 7296,-30144 12544,-28544 16576,-23552 17024,-18176 14464,-16512 9536,-16896 5760,-16832 3200,-14336 1856,-10112 2496,-7552 3968,-5568 4992,-4288 3840,-1984"/>
+  </object>
+  <object id="892" x="9824" y="9184">
+   <polygon points="0,0 -1408,1344 -320,3584 3200,4160 4288,1728 2560,-576"/>
+  </object>
+  <object id="893" x="11808" y="15392">
+   <polygon points="0,0 1152,1792 1024,5696 1152,9088 3840,10304 6144,9856 6976,7040 6272,3328 4288,-1152"/>
+  </object>
+  <object id="895" x="6304" y="9376">
+   <polygon points="0,0 -3520,192 -7488,1856 -10304,-576 -9280,-6912 -1728,-9216 4288,-6080 2560,-2240"/>
+  </object>
+  <object id="896" x="2528" y="-4064">
+   <polygon points="0,0 8000,3840 15488,12480 18112,20352 20992,26496 26880,25984 30656,21696 28736,14656 23168,7744 20160,3072 12864,-256 8704,-3712 3328,-3712"/>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="SoftLayer" locked="1">
+  <properties>
+   <property name="bounce" type="float" value="0.8"/>
+   <property name="color" value="0x35762c"/>
+   <property name="deadly" type="bool" value="false"/>
+   <property name="friction" type="float" value="4"/>
+   <property name="green" type="bool" value="false"/>
+   <property name="power" type="float" value="1.3"/>
+   <property name="type" value="SOFT"/>
+   <property name="verticalForce" type="float" value="0.8"/>
+  </properties>
+  <object id="897" x="112" y="43312">
+   <polygon points="0,0 -1056,288 -1568,1440 -1488,3120 112,4256 3488,4336 4976,3280 5136,1008 4064,-720 1760,-1072"/>
+  </object>
+  <object id="899" x="-3312" y="32384">
+   <polygon points="0,0 912,2560 3408,5664 1728,7680 -1328,9008 -6208,7744 -10032,1808 -10688,-928 -10896,-2720 -9568,-3776 -6496,-3728 -5024,-4768 -5424,-6960 -5264,-9792 -4544,-11088 -7040,-13680 -7040,-15312 -5376,-16384 768,-19088 3824,-18816 5552,-16592 6016,-12800 4928,-10960 5296,-8688 4304,-7328 32,-7344 -1504,-5392 -2064,-3328"/>
+  </object>
+  <object id="900" x="10016" y="10624">
+   <polygon points="0,0 1088,-1024 3360,-1568 4768,320 4000,2368 832,1856"/>
+  </object>
+  <object id="901" x="13760" y="15808">
+   <polygon points="-320,-192 3296,-1216 5248,2784 4928,3520 2752,4544 992,4096 512,3168 800,1408"/>
+  </object>
+  <object id="902" x="7264" y="9088">
+   <polygon points="0,0 2368,-2080 4064,-5696 -1600,-8640 -8608,-6464 -8608,-5504 -6624,-4064 -3232,-3552 -2304,-1056"/>
+  </object>
+  <object id="903" x="4608" y="-4160">
+   <polygon points="0,0 2592,-3008 7520,-2976 11488,64 18944,3488 21792,8192 27488,14944 29344,21568 25792,25856 20160,26304 14976,12416 7392,3616"/>
+  </object>
+  <object id="925" x="-736" y="13088">
+   <polygon points="0,0 2112,448 3968,4224 6144,3808 8384,5120 11008,4480 11680,4672 8768,832 3744,-704"/>
+  </object>
+ </objectgroup>
+ <objectgroup id="13" name="StandardLayer" locked="1">
+  <properties>
+   <property name="bounce" type="float" value="0.7"/>
+   <property name="color" value="0x659b3d"/>
+   <property name="deadly" type="bool" value="false"/>
+   <property name="friction" type="float" value="3"/>
+   <property name="green" type="bool" value="false"/>
+   <property name="power" type="float" value="1.5"/>
+   <property name="type" value="STANDARD"/>
+   <property name="verticalForce" type="float" value="1"/>
+  </properties>
+  <object id="904" x="2016" y="42560">
+   <polygon points="0,0 -1728,1024 -2688,1408 -3008,3488 -1920,4448 1376,4608 2784,3776 2752,1696 1920,384"/>
+  </object>
+  <object id="905" x="-4736" y="40512">
+   <polygon points="0,0 -4608,-1600 -7520,-6176 -8288,-10496 -5696,-11104 -1120,-10560 672,-7872 1632,-5216 3968,-2560 2272,-736"/>
+  </object>
+  <object id="906" x="-7008" y="20704">
+   <polygon points="0,0 -2688,-2464 -1600,-4000 4768,-6752 7328,-6432 8672,-4544 9088,-1280 8160,320 4224,3744 2240,4032 -96,2592 -512,1312"/>
+  </object>
+  <object id="907" x="15072" y="19616">
+   <polygon points="0,0 32,-2624 -768,-3744 128,-4224 1472,-4448 2112,-3968 3424,-1568 3392,-608 2048,-96"/>
+  </object>
+  <object id="908" x="-256" y="3104">
+   <polygon points="0,0 5920,-2016 10880,384 9344,3456 7616,5280 5952,4640 5440,2752 4032,1504 768,1024"/>
+  </object>
+  <object id="909" x="5792" y="-4384">
+   <polygon points="0,0 1664,-2272 5856,-2336 9632,320 8992,1792 6720,3424 2944,1792"/>
+  </object>
+  <object id="910" x="16416" y="3488">
+   <polygon points="0,0 -736,-1952 800,-4608 3648,-5312 6752,-3840 8032,-1600 7232,-1376 5792,-1984 3456,-3040 1760,-1472 1984,640 576,864"/>
+  </object>
+  <object id="911" x="18656" y="4928">
+   <polygon points="0,0 -672,416 1312,2880 2656,4992 4832,5696 7040,5088 9184,3616 9088,1312 7264,-416 6496,-2112 5632,-2112 5440,-1024 7232,1280 6208,3200 2976,2464 1632,896"/>
+  </object>
+  <object id="912" x="21888" y="11328">
+   <polygon points="0,0 3200,10176 8256,9952 11552,6048 9920,-352 6592,-4480 6240,-3712 6368,-2112 4320,-672 1600,0"/>
+  </object>
+  <object id="926" x="544" y="13120">
+   <polygon points="0,0 2464,-448 7232,1024 9600,4032 7200,4736 5280,3392 2784,3872 1024,224"/>
+  </object>
+ </objectgroup>
+ <objectgroup id="17" name="EnvironmentLayer" locked="1">
+  <object id="929" name="Tree" gid="11" x="1680" y="42641" width="864" height="1891"/>
+  <object id="930" name="Tree" gid="11" x="3664" y="42897" width="864" height="1891"/>
+  <object id="931" name="Tree" gid="11" x="4752" y="44497" width="864" height="1891"/>
+  <object id="932" name="Tree" gid="11" x="4528" y="46769" width="864" height="1891"/>
+  <object id="933" name="Tree" gid="11" x="2992" y="47761" width="864" height="1891"/>
+  <object id="934" name="Tree" gid="11" x="48" y="47633" width="864" height="1891"/>
+  <object id="935" name="Tree" gid="11" x="-1680" y="46545" width="864" height="1891"/>
+  <object id="936" name="Tree" gid="11" x="-400" y="38033" width="864" height="1891"/>
+  <object id="937" name="Tree" gid="11" x="-1104" y="39665" width="864" height="1891"/>
+  <object id="938" name="Tree" gid="11" x="-4912" y="41585" width="864" height="1891"/>
+  <object id="939" name="Tree" gid="11" x="-9840" y="40177" width="864" height="1891"/>
+  <object id="940" name="Tree" gid="11" x="-13648" y="34673" width="864" height="1891"/>
+  <object id="941" name="Tree" gid="11" x="-14512" y="29969" width="864" height="1891"/>
+  <object id="942" name="Tree" gid="11" x="-3664" y="32785" width="864" height="1891"/>
+  <object id="943" name="Tree" gid="11" x="-10544" y="17361" width="864" height="1891"/>
+  <object id="944" name="Tree" gid="11" x="-1648" y="13553" width="864" height="1891"/>
+  <object id="945" name="Tree" gid="11" x="2256" y="17969" width="864" height="1891"/>
+  <object id="946" name="Tree" gid="11" x="10544" y="17905" width="864" height="1891"/>
+  <object id="947" name="Tree" gid="11" x="11792" y="24145" width="864" height="1891"/>
+  <object id="948" name="Tree" gid="11" x="7632" y="25073" width="864" height="1891"/>
+  <object id="949" name="Tree" gid="11" x="848" y="25169" width="864" height="1891"/>
+  <object id="950" name="Tree" gid="11" x="15280" y="25009" width="864" height="1891"/>
+  <object id="951" name="Tree" gid="11" x="18416" y="19985" width="864" height="1891"/>
+  <object id="952" name="Tree" gid="11" x="12848" y="9393" width="864" height="1891"/>
+  <object id="953" name="Tree" gid="11" x="14512" y="11185" width="864" height="1891"/>
+  <object id="954" name="Tree" gid="11" x="10704" y="3633" width="864" height="1891"/>
+  <object id="955" name="Tree" gid="11" x="5136" y="945" width="864" height="1891"/>
+  <object id="956" name="Tree" gid="11" x="-1584" y="3313" width="864" height="1891"/>
+  <object id="957" name="Tree" gid="11" x="6864" y="8945" width="864" height="1891"/>
+  <object id="958" name="Tree" gid="11" x="-368" y="10993" width="864" height="1891"/>
+  <object id="959" name="Tree" gid="11" x="10736" y="9745" width="864" height="1891"/>
+  <object id="960" name="Tree" gid="11" x="13360" y="13105" width="864" height="1891"/>
+  <object id="962" name="Tree" gid="11" x="11632" y="-6863" width="864" height="1891"/>
+  <object id="963" name="Tree" gid="11" x="6960" y="-7023" width="864" height="1891"/>
+  <object id="964" name="Tree" gid="11" x="4624" y="-4207" width="864" height="1891"/>
+  <object id="965" name="Tree" gid="11" x="12048" y="-207" width="864" height="1891"/>
+  <object id="966" name="Tree" gid="11" x="15472" y="-4047" width="864" height="1891"/>
+  <object id="967" name="Tree" gid="11" x="23056" y="-463" width="864" height="1891"/>
+  <object id="968" name="Tree" gid="11" x="24752" y="2417" width="864" height="1891"/>
+  <object id="969" name="Tree" gid="11" x="27920" y="6481" width="864" height="1891"/>
+  <object id="970" name="Tree" gid="11" x="24656" y="22001" width="864" height="1891"/>
+  <object id="971" name="Tree" gid="11" x="29744" y="21681" width="864" height="1891"/>
+  <object id="972" name="Tree" gid="11" x="33360" y="17649" width="864" height="1891"/>
+  <object id="973" name="Tree" gid="11" x="31600" y="10865" width="864" height="1891"/>
+  <object id="974" name="Rock" gid="13" x="-10703" y="17712" width="350" height="288"/>
+  <object id="975" name="Rock" gid="13" x="-10479" y="18864" width="350" height="288"/>
+  <object id="976" name="Rock" gid="13" x="-8239" y="21328" width="350" height="288"/>
+  <object id="977" name="Rock" gid="13" x="-9391" y="20112" width="350" height="288"/>
+  <object id="978" name="Rock" gid="13" x="-8623" y="23056" width="350" height="288"/>
+  <object id="979" name="Rock" gid="13" x="-8943" y="25104" width="350" height="288"/>
+  <object id="980" name="Rock" gid="13" x="-8495" y="27728" width="350" height="288"/>
+  <object id="981" name="Rock" gid="13" x="-10063" y="28592" width="350" height="288"/>
+  <object id="982" name="Rock" gid="13" x="-12847" y="28560" width="350" height="288"/>
+  <object id="983" name="Rock" gid="13" x="-3823" y="31440" width="350" height="288"/>
+  <object id="984" name="Rock" gid="13" x="-5167" y="29360" width="350" height="288"/>
+  <object id="985" name="Rock" gid="13" x="-4783" y="27152" width="350" height="288"/>
+  <object id="986" name="Rock" gid="13" x="-3343" y="25392" width="350" height="288"/>
+  <object id="987" name="Rock" gid="13" x="529" y="25552" width="350" height="288"/>
+  <object id="988" name="Rock" gid="13" x="13585" y="15824" width="350" height="288"/>
+  <object id="989" name="Rock" gid="13" x="16753" y="14992" width="350" height="288"/>
+  <object id="990" name="Rock" gid="13" x="14129" y="16752" width="350" height="288"/>
+  <object id="991" name="Rock" gid="13" x="14417" y="17488" width="350" height="288"/>
+  <object id="992" name="Rock" gid="13" x="14417" y="18992" width="350" height="288"/>
+  <object id="993" name="Rock" gid="13" x="14737" y="19920" width="350" height="288"/>
+  <object id="994" name="Rock" gid="13" x="15921" y="20144" width="350" height="288"/>
+  <object id="995" name="Rock" gid="13" x="17041" y="19920" width="350" height="288"/>
+  <object id="996" name="Rock" gid="13" x="15121" y="15280" width="350" height="288"/>
+  <object id="997" name="Rock" gid="13" x="17585" y="16208" width="350" height="288"/>
+  <object id="998" name="Rock" gid="13" x="18257" y="17488" width="350" height="288"/>
+  <object id="999" name="Rock" gid="13" x="19793" y="1008" width="350" height="288"/>
+  <object id="1000" name="Rock" gid="13" x="23825" y="2640" width="350" height="288"/>
+  <object id="1001" name="Rock" gid="13" x="23601" y="4016" width="350" height="288"/>
+  <object id="1002" name="Rock" gid="13" x="25361" y="6384" width="350" height="288"/>
+  <object id="1003" name="Rock" gid="13" x="24625" y="7952" width="350" height="288"/>
+  <object id="1004" name="Rock" gid="13" x="21649" y="7120" width="350" height="288"/>
+  <object id="1005" name="Rock" gid="13" x="20497" y="5680" width="350" height="288"/>
+  <object id="1006" name="Rock" gid="13" x="19217" y="5168" width="350" height="288"/>
+  <object id="1007" name="Rock" gid="13" x="18449" y="4080" width="350" height="288"/>
+  <object id="1008" name="Rock" gid="13" x="18353" y="2160" width="350" height="288"/>
+ </objectgroup>
+ <objectgroup id="12" name="GreenLayer" locked="1">
+  <properties>
+   <property name="bounce" type="float" value="0.4"/>
+   <property name="color" value="0x83d878"/>
+   <property name="deadly" type="bool" value="false"/>
+   <property name="friction" type="float" value="2"/>
+   <property name="green" type="bool" value="true"/>
+   <property name="insatStop" type="bool" value="false"/>
+   <property name="power" type="float" value="0.8"/>
+   <property name="type" value="GREEN"/>
+   <property name="verticalForce" type="float" value="1"/>
+  </properties>
+  <object id="913" x="19936" y="864">
+   <polygon points="0,0 -1504,1248 -1280,3168 -576,4128 672,4672 1824,6144 4864,6976 5600,5376 3840,3072 4000,1632"/>
+  </object>
+ </objectgroup>
+ <objectgroup id="23" name="WaterLayer" locked="1">
+  <properties>
+   <property name="bounce" type="float" value="0.1"/>
+   <property name="color" value="0x6699ff"/>
+   <property name="deadly" type="bool" value="true"/>
+   <property name="friction" type="float" value="10"/>
+   <property name="green" type="bool" value="false"/>
+   <property name="instaStop" type="bool" value="true"/>
+   <property name="power" type="float" value="0.8"/>
+   <property name="type" value="WATER"/>
+   <property name="verticalForce" type="float" value="0.8"/>
+  </properties>
+  <object id="914" x="1088" y="21504">
+   <polygon points="0,0 576,1920 -224,3136 -3264,3232"/>
+  </object>
+  <object id="917" x="14848" y="20576">
+   <polygon points="0,0 1952,352 4064,-480 4608,1568 3904,4384 1888,4832 960,4064 1856,2976 2080,1408"/>
+  </object>
+  <object id="920" x="3680" y="9152">
+   <polygon points="0,0 352,-1280 1024,-1184 1440,-608 2944,-160 2464,64"/>
+  </object>
+  <object id="928" x="33152" y="17248">
+   <polygon points="0,0 -3136,3680 -7872,3936 -9504,-1472 -7744,-3264 -3680,-4448 -1728,-4512 -1024,-4032"/>
+  </object>
+ </objectgroup>
+ <objectgroup id="9" name="SandLayer" locked="1">
+  <properties>
+   <property name="bounce" type="float" value="0.1"/>
+   <property name="color" value="0xE2BA32"/>
+   <property name="deadly" type="bool" value="false"/>
+   <property name="friction" type="float" value="15"/>
+   <property name="green" type="bool" value="false"/>
+   <property name="insatStop" type="bool" value="false"/>
+   <property name="power" type="float" value="0.5"/>
+   <property name="type" value="SAND"/>
+   <property name="verticalForce" type="float" value="0.6"/>
+  </properties>
+  <object id="915" x="192" y="25472">
+   <polygon points="0,0 -3264,32 -4576,1696 -5088,3584 -3424,6240 -2720,6080 -1760,2304 288,576"/>
+  </object>
+  <object id="916" x="-11712" y="18432">
+   <polygon points="0,0 -1984,3264 -3072,8640 -2656,10464 -1216,9664 1440,9760 3040,9120 2496,6592 3072,3488 3360,2848 896,224 896,-1024"/>
+  </object>
+  <object id="918" x="14656" y="20832">
+   <polygon points="0,0 -416,608 -256,3392 896,3840 1824,2592 2016,1280"/>
+  </object>
+  <object id="919" x="-1600" y="4160">
+   <polygon points="0,0 -896,4416 1536,6624 4672,5248 5248,3552 4704,1792 2016,1600"/>
+  </object>
+  <object id="927" x="15744" y="-3808">
+   <polygon points="0,0 -608,1440 -2656,2976 -2656,3456 -992,5600 1024,2304 3648,1728"/>
+  </object>
+ </objectgroup>
+ <objectgroup id="22" name="InteractiveLayer" locked="1">
+  <properties>
+   <property name="bounce" type="float" value="1"/>
+   <property name="color" value="0xE2BA32"/>
+   <property name="deadly" type="bool" value="false"/>
+   <property name="friction" type="float" value="1"/>
+   <property name="green" type="bool" value="false"/>
+   <property name="instaStop" type="bool" value="false"/>
+   <property name="power" type="float" value="1"/>
+   <property name="type" value="Interaction"/>
+   <property name="verticalForce" type="float" value="1"/>
+  </properties>
+  <object id="921" name="Trampoline" x="10560" y="10720">
+   <properties>
+    <property name="bounce" type="float" value="3"/>
+    <property name="color" value="0x797772"/>
+    <property name="friction" type="float" value="3"/>
+    <property name="type" value="TRAMPOLINE"/>
+   </properties>
+   <polygon points="0,0 800,-800 2656,-1184 3744,224 3296,1792 608,1504"/>
+  </object>
+  <object id="922" name="Trampoline" x="10240" y="17952">
+   <properties>
+    <property name="bounce" type="float" value="3"/>
+    <property name="color" value="0x797772"/>
+    <property name="friction" type="float" value="3"/>
+    <property name="type" value="TRAMPOLINE"/>
+   </properties>
+   <polygon points="0,0 1600,704 2048,5792 -352,7264 -2240,6688 -2368,960"/>
+  </object>
+  <object id="923" name="Ice" x="2144" y="24672">
+   <properties>
+    <property name="bounce" type="float" value="0.5"/>
+    <property name="color" value="0xCCF5F5"/>
+    <property name="friction" type="float" value="0.7"/>
+    <property name="type" value="ICE"/>
+   </properties>
+   <polygon points="0,0 416,-960 -32,-3104 896,-4928 1120,-6688 2816,-7168 4672,-6464 5280,-5664 5408,32"/>
+  </object>
+ </objectgroup>
+</map>
